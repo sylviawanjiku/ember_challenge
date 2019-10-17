@@ -8,13 +8,15 @@ export default class IndexRoute extends Route {
         name: 'Solve all github issues',
         description: 'Solve the world\'s Github issues.',
         isComplete: false,
+        isPinned: false,
         creator: 2
       }),
       this.store.createRecord('task', {
         id: 2,
         name: 'A task',
         description: 'This is a task.',
-        isComplete: false,
+        isComplete: true,
+        isPinned: false,
         creator: 2
       }),
       this.store.createRecord('task', {
@@ -22,6 +24,15 @@ export default class IndexRoute extends Route {
         name: 'Clean the kitchen',
         description: 'It\'s filthy!',
         isComplete: false,
+        isPinned: false,
+        creator: 2
+      }),
+      this.store.createRecord('task', {
+        id: 4,
+        name: 'Clean the bedroom',
+        description: 'It\'s filthy!',
+        isComplete: false,
+        isPinned: false,
         creator: 2
       })
     ];

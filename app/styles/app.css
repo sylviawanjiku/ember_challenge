@@ -3,3 +3,7 @@
   text-decoration: line-through;
   background: #d1d1d1;
 }
+.no-pins{
+  color: grey !important;
+  align-items: center  !important;
+}
